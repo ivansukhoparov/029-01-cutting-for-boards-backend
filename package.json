@@ -10,8 +10,6 @@
     "ts-jest": "^29.1.1"
   },
   "scripts": {
-    "iets": "yarn init --yes & yarn add express & yarn add nodemon --dev & yarn add typescript ts-node @types/node @types/express --dev",
-    "ij": " yarn add jest ts-jest @types/jest supertest @types/supertest & yarn ts-jest config:init",
     "dev": "yarn nodemon --inspect dist/index.js",
     "watch": "tsc -w",
     "jest": "jest"
